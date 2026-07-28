@@ -22,5 +22,5 @@ largest = second = a[0];
         printf("Second largest element is %d\n", second);
     }
 
-    return 0;
+    
 }
