@@ -54,7 +54,8 @@ int main() {
     int a[50], i = 0, n;
     
     printf("Enter the number of elements in the array: ");
-    if (scanf("%d", &n) != 1 || n > 50 || n <= 0) {
+    scanf("%d", &n);
+    if (n!= 1 || n > 50 || n <= 0) {
         printf("Invalid input or size exceeds array limit.\n");
         return 1;
     }
