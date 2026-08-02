@@ -19,7 +19,6 @@ int main() {
         for (int j = i + 1; j < n; j++) {
             if (nums[i] + nums[j] == target) {
                 printf("Pair found: values (%d, %d)\n", nums[i], nums[j]);
-                return 0;
             }
         
         }
