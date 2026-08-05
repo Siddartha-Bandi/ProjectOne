@@ -261,17 +261,17 @@ int main()
             delete_pos(pos);
             break;
 
-        case 7:
+        /*case 7:
             display();
-            break;
+            break;*/
 
-        case 8:
+        case 7:
             printf("Reverse Order:\n");
             print_reverse_recursive(head);
             printf("\n");
             break;
 
-        case 9:
+        case 8:
             while (head != NULL)
                 delete_begin();
 
@@ -282,7 +282,7 @@ int main()
             printf("Invalid Choice!\n");
         }
 
-    } while (ch != 10);
+    } while (ch != 8);
 
     return 0;
 }
